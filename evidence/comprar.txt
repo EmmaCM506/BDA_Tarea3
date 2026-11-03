@@ -1,0 +1,9 @@
+200 compradores en 4.48 s (45 compras/s)
+OK: 120 confirmadas y 80 agotadas (esperado 120/80)
+OK: quedan 0 entradas; nunca negativo
+OK: 120 órdenes confirmadas en pruebas_ordenes
+OK: 3 compradores de 4 entradas sobre 10: 2 confirmadas, 1 agotada, quedan 2
+OK: la misma orden repetida 5 veces descontó una sola entrada (quedan 4)
+OK: una zona inexistente se resuelve como agotada
+
+Resultado: todas las verificaciones pasaron (2026-11-03T18:43:28+00:00)

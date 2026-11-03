@@ -1,0 +1,9 @@
+{
+  "semilla": 2026,
+  "eventos": 400,
+  "zonas": 1189,
+  "capacidad_total": 162810,
+  "sha256_eventos_jsonl": "9fc6a2dbf450340038a53813d1bf85e9206da1f7f8460259bf8cf4609ad4774a"
+}
+
+Escrito: /src/labs/lab3-mongo-replicas/data/eventos.jsonl

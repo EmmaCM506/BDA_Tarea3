@@ -1,0 +1,11 @@
+Corrida r419af194
+  intentos .............. 99
+  confirmados (ok) ...... 96
+  con error ............. 3
+  presentes en la base .. 96  (readConcern majority)
+  PERDIDOS (confirmados ausentes) ......... 0  []
+  errores que SÍ se escribieron ........... 0  []
+  errores que NO se escribieron ........... 3
+  inesperados (presentes, nunca intentados) 0
+
+RPO observado sobre operaciones confirmadas: 0 (ninguna se perdió)

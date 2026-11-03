@@ -1,0 +1,10 @@
+OK: las cuatro variantes devolvieron la cantidad esperada de muestras
+
+variante         n   p50_ms   p95_ms   p99_ms    ops/s
+w1             300     6.65    25.48    41.85       99
+w1_journal     300    28.78   109.74   219.44       24
+majority       300    23.74    53.10    79.12       36
+w3             300    12.89    19.75    32.43       72
+
+Muestras crudas: evidence/write-concern.csv
+Declare en el informe: máquina, RAM, SO, n, calentamiento y que los tres miembros comparten una sola computadora (sin latencia de red real).

@@ -1,0 +1,16 @@
+== CON INDICE
+{
+  totalDocsExamined: 67,
+  totalKeysExamined: 67,
+  nReturned: 67,
+  executionTimeMillis: 4
+}
+{"isCached":false,"stage":"FETCH","inputStage":{"stage":"IXSCAN","keyPattern":{"categoria":1,"fecha":1},"indexName":"categoria_1_fecha_1","isMultiKey":false,"multiKeyPaths":{"categoria":[],"fecha":[]},"isUnique":false,"isSparse":false,"isPartial":false,"indexVersion":2,"direction":"forward","indexBounds":{"categoria":["[\"concierto\", \"concierto\"]"],"fecha":["[\"2026-12-01\", {})"]}}}
+== SIN INDICE (hint $natural)
+{
+  totalDocsExamined: 400,
+  totalKeysExamined: 0,
+  nReturned: 67,
+  executionTimeMillis: 1
+}
+{"isCached":false,"stage":"SORT","sortPattern":{"fecha":1},"memLimit":104857600,"type":"simple","inputStage":{"stage":"COLLSCAN","filter":{"$and":[{"categoria":{"$eq":"concierto"}},{"fecha":{"$gte":"2026-12-01"}}]},"direction":"forward"}}
